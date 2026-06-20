@@ -6,7 +6,7 @@ description: Bloomberg Products and Platforms covers the breadth of Bloomberg's 
   Bloomberg serves financial professionals with an interconnected ecosystem of products
   and platforms for data, analytics, and communication.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-products-and-platforms/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-04-21'
