@@ -1,9 +1,9 @@
 aid: bloomberg-products-and-platforms
 name: Bloomberg Products and Platforms
-description: Bloomberg Products and Platforms covers the breadth of Bloomberg's integrated offerings spanning the
-  Bloomberg Terminal, Enterprise data products, API platforms, trading systems, analytics, messaging, media, and
-  government intelligence solutions. Bloomberg serves financial professionals with an interconnected ecosystem of
-  products and platforms for data, analytics, and communication.
+description: Bloomberg Products and Platforms covers the breadth of Bloomberg's integrated offerings spanning
+  the Bloomberg Terminal, Enterprise data products, API platforms, trading systems, analytics, messaging,
+  media, and government intelligence solutions. Bloomberg serves financial professionals with an interconnected
+  ecosystem of products and platforms for data, analytics, and communication.
 type: Index
 deliveryModel:
   model: saas
@@ -31,7 +31,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-products-and-platforms.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-products-and-platforms/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-08-27'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 tags:
 - Product
@@ -52,8 +52,8 @@ tags_raw:
 apis:
 - aid: bloomberg-products-and-platforms:blpapi
   name: Bloomberg Open API (BLPAPI)
-  description: Cross-platform API providing access to the full Bloomberg data ecosystem including real-time, reference,
-    and historical data with SDKs for Python, Java, C++, and other languages.
+  description: Cross-platform API providing access to the full Bloomberg data ecosystem including real-time,
+    reference, and historical data with SDKs for Python, Java, C++, and other languages.
   humanURL: https://bloomberg.github.io/blpapi-docs/
   baseURL: blpapi://localhost:8194
   tags:
@@ -65,8 +65,8 @@ apis:
     url: https://bloomberg.github.io/blpapi-docs/
 - aid: bloomberg-products-and-platforms:bpipe
   name: Bloomberg B-PIPE
-  description: Enterprise data distribution platform for delivering Bloomberg data at scale to multiple applications
-    and users within an institution using a managed entitlement and authorization framework.
+  description: Enterprise data distribution platform for delivering Bloomberg data at scale to multiple
+    applications and users within an institution using a managed entitlement and authorization framework.
   humanURL: https://www.bloomberg.com/professional/support/api-library/
   baseURL: blpapi://bpipe-server:8194
   tags:
@@ -78,8 +78,9 @@ apis:
     url: https://www.bloomberg.com/professional/support/api-library/
 - aid: bloomberg-products-and-platforms:emsx
   name: Bloomberg EMSX (Electronic Order Management)
-  description: Bloomberg's Electronic Order Management System (EMSX) enabling electronic order routing to brokers
-    across equities, fixed income, FX, and derivatives. Provides FIX connectivity, algorithmic trading, and TCA.
+  description: Bloomberg's Electronic Order Management System (EMSX) enabling electronic order routing
+    to brokers across equities, fixed income, FX, and derivatives. Provides FIX connectivity, algorithmic
+    trading, and TCA.
   humanURL: https://www.bloomberg.com/professional/solution/emsx/
   baseURL: blpapi://localhost:8194
   tags:
@@ -91,6 +92,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/emsx/
 common:
+- type: Website
+  url: https://bloomberg.com
 - type: ParentCompany
   url: https://apis.io/providers/bloomberg/
   name: Bloomberg
