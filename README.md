@@ -64,20 +64,109 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bloomberg Products and Platforms covers the breadth of Bloomberg's integrated offerings spanning the Bloomberg Terminal, Enterprise data products, API platforms, trading systems, analytics, messaging, media, and government intelligence solutions.
+Bloomberg Products and Platforms covers the breadth of Bloomberg's integrated offerings spanning the Bloomberg Terminal, Enterprise data products, API platforms, trading systems, analytics, messaging, media, and government intelligence solutions. Bloomberg serves financial professionals with an interconnected ecosystem of products and platforms for data, analytics, and communication.
 
-## APIs
+**Areas:** Product · Platform · Terminal · Enterprise · Financial Data · Analytics · Bloomberg
 
-- **Bloomberg Open API (BLPAPI)** - Cross-platform API for Bloomberg data
-- **Bloomberg B-PIPE** - Enterprise data distribution platform
-- **Bloomberg EMSX** - Electronic order management and routing
+## Bloomberg Products and Platforms on APIs.io
 
-## Resources
+Everything profiled for Bloomberg Products and Platforms is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bloomberg-products-and-platforms/](https://apis.io/providers/bloomberg-products-and-platforms/)** — or go straight to one of the APIs or properties below.
 
-- [Bloomberg Professional Portal](https://www.bloomberg.com/professional/)
-- [Bloomberg Developer Portal](https://developer.bloomberg.com/)
-- [Bloomberg GitHub](https://github.com/bloomberg)
+### APIs (3)
 
-## Profile
+- [Bloomberg Open API (BLPAPI)](https://apis.io/apis/bloomberg-products-and-platforms/blpapi/) — Cross-platform API providing access to the full Bloomberg data ecosystem including real-time, reference, and historical data with SDKs for Python, Java,…
+- [Bloomberg B-PIPE](https://apis.io/apis/bloomberg-products-and-platforms/bpipe/) — Enterprise data distribution platform for delivering Bloomberg data at scale to multiple applications and users within an institution using a managed…
+- [Bloomberg EMSX (Electronic Order Management)](https://apis.io/apis/bloomberg-products-and-platforms/emsx/) — Bloomberg's Electronic Order Management System (EMSX) enabling electronic order routing to brokers across equities, fixed income, FX, and derivatives.…
 
-See [apis.yml](apis.yml) for the full API profile.
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bloomberg Products And Platforms Domain Security](https://apis.io/security/bloomberg-products-and-platforms/bloomberg-products-and-platforms-domain-security/)
+- [Bloomberg Products And Platforms Vulnerability Disclosure](https://apis.io/security/bloomberg-products-and-platforms/bloomberg-products-and-platforms-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Bloomberg Products And Platforms Plans Pricing](https://apis.io/plans/bloomberg-products-and-platforms/bloomberg-products-and-platforms-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Bloomberg Products And Platforms Rate Limits](https://apis.io/rate-limits/bloomberg-products-and-platforms/bloomberg-products-and-platforms-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Bloomberg Products And Platforms Finops](https://apis.io/finops/bloomberg-products-and-platforms/bloomberg-products-and-platforms-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bloomberg.com)
+- [Documentation](https://developer.bloomberg.com/)
+- [Support](https://www.bloomberg.com/professional/support/)
+- [Terms of service](https://www.bloomberg.com/notices/tos/)
+- [Privacy policy](https://www.bloomberg.com/privacy/)
+- [GitHub](https://github.com/bloomberg)
+
+## API Evangelist rating
+
+**Kin Score 18.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bloomberg-products-and-platforms/](https://apis.io/providers/bloomberg-products-and-platforms/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bloomberg Products and Platforms: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bloomberg-products-and-platforms/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
